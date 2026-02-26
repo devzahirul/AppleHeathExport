@@ -4,7 +4,9 @@ A privacy-first iOS application for storing and exporting health data with on-de
 
 ## Demo video
 
-**[Watch on YouTube (Shorts)](https://youtube.com/shorts/QFGnXs0dQsA?si=Hy17PwVa4sZt9v4h)**
+[![HealthVault Demo](https://img.youtube.com/vi/QFGnXs0dQsA/hqdefault.jpg)](https://youtube.com/shorts/QFGnXs0dQsA?si=Hy17PwVa4sZt9v4h)
+
+*Click the image to watch the demo on YouTube Shorts.*
 
 ---
 
