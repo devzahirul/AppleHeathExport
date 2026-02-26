@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>HealthVault reads your steps, sleep, and heart rate from Health to store them securely in your encrypted vault.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>HealthVault does not write to Health; this permission is only required if you enable future sync features.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Use Face ID to unlock HealthVault and protect your health data.</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+</dict>
+</plist>

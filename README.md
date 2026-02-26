@@ -2,6 +2,10 @@
 
 A privacy-first iOS application for storing and exporting health data with on-device encryption, biometric protection, and zero-knowledge export.
 
+## Demo video
+
+**[Watch on YouTube (Shorts)](https://youtube.com/shorts/QFGnXs0dQsA?si=Hy17PwVa4sZt9v4h)**
+
 ---
 
 ## 1. Overview

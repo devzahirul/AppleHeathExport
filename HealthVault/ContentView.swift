@@ -2,23 +2,30 @@
 //  ContentView.swift
 //  HealthVault
 //
-//  Created by lynkto_1 on 2/26/26.
+//  Root view: gates content behind BiometricShield, then shows dashboard.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var appState: AppState
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if appState.isUnlocked {
+                DashboardView(appState: appState)
+            } else {
+                BiometricShieldView(
+                    reason: "Unlock HealthVault to view your health data",
+                    onAuthenticated: { appState.unlock() }
+                ) {
+                    DashboardView(appState: appState)
+                }
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(appState: AppState())
 }
